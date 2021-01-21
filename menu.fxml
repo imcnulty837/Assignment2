@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="files.CalcController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Assignment2.CalcController">
    <children>
       <Button fx:id="zero" layoutX="400.0" layoutY="40.0" mnemonicParsing="false" onAction="#placeZero" scaleX="2.0" scaleY="2.0" style="-fx-background-color: lightblue; -fx-border-color: darkblue;" text="0" />
       <Button fx:id="one" layoutX="460.0" layoutY="40.0" mnemonicParsing="false" onAction="#placeOne" scaleX="2.0" scaleY="2.0" style="-fx-background-color: lightblue; -fx-border-color: darkblue;" text="1" />

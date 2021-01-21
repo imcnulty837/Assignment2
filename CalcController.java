@@ -2,7 +2,7 @@
  *  Finish up implementation of procedural methods
  *  Fix the problem checks
  */
-package files;
+package Assignment2;
 
 import javafx.event.ActionEvent;
 import javafx.scene.control.*;
