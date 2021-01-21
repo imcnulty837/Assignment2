@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CalcController">
+   <children>
+      <Button fx:id="zero" layoutX="400.0" layoutY="40.0" mnemonicParsing="false" onAction="#placeZero" scaleX="2.0" scaleY="2.0" style="-fx-background-color: lightblue; -fx-border-color: darkblue;" text="0" />
+      <Button fx:id="one" layoutX="460.0" layoutY="40.0" mnemonicParsing="false" onAction="#placeOne" scaleX="2.0" scaleY="2.0" style="-fx-background-color: lightblue; -fx-border-color: darkblue;" text="1" />
+      <Button fx:id="two" layoutX="520.0" layoutY="40.0" mnemonicParsing="false" onAction="#placeTwo" scaleX="2.0" scaleY="2.0" style="-fx-background-color: lightblue; -fx-border-color: darkblue;" text="2" />
+      <Button fx:id="three" layoutX="400.0" layoutY="105.0" mnemonicParsing="false" onAction="#placeThree" scaleX="2.0" scaleY="2.0" style="-fx-background-color: lightblue; -fx-border-color: darkblue;" text="3" />
+      <Button fx:id="four" layoutX="460.0" layoutY="105.0" mnemonicParsing="false" onAction="#placeFour" scaleX="2.0" scaleY="2.0" style="-fx-background-color: lightblue; -fx-border-color: darkblue;" text="4" />
+      <Button fx:id="five" layoutX="520.0" layoutY="105.0" mnemonicParsing="false" onAction="#placeFive" scaleX="2.0" scaleY="2.0" style="-fx-background-color: lightblue; -fx-border-color: darkblue;" text="5" />
+      <Button fx:id="point" layoutX="463.0" layoutY="170.0" mnemonicParsing="false" onAction="#placePoint" scaleX="2.5" scaleY="2.0" style="-fx-background-color: lightblue; -fx-border-color: darkblue;" text="." textAlignment="CENTER" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="375.0" layoutY="220.0" prefHeight="18.0" prefWidth="196.0" style="-fx-background-color: yellow; -fx-border-color: black;" text="Math Operations" textAlignment="CENTER" textOverrun="CLIP" />
+      <Button fx:id="plus" layoutX="388.0" layoutY="260.0" mnemonicParsing="false" onAction="#sum" scaleX="2.0" scaleY="2.0" style="-fx-background-color: lightgreen; -fx-border-color: green;" text="+" />
+      <Button fx:id="divide" layoutX="449.0" layoutY="260.0" mnemonicParsing="false" onAction="#quoti" scaleX="2.0" scaleY="2.0" style="-fx-background-color: lightgreen; -fx-border-color: green;" text="/" />
+      <Button fx:id="squareroot" layoutX="513.0" layoutY="260.0" mnemonicParsing="false" onAction="#root" scaleX="2.0" scaleY="2.0" style="-fx-background-color: lightgreen; -fx-border-color: green;" text="sqrt" />
+      <Button fx:id="clear" layoutX="449.0" layoutY="324.0" mnemonicParsing="false" onAction="#clearDisplay" scaleX="2.0" scaleY="2.0" style="-fx-background-color: lightgreen; -fx-border-color: green;" text="Clear" />
+      <Button fx:id="results" layoutX="209.0" layoutY="186.0" mnemonicParsing="false" onAction="#displayResults" scaleX="4.0" scaleY="1.5" style="-fx-background-color: lightgreen; -fx-border-color: green;" text="Results" textAlignment="CENTER" />
+      <Label layoutX="46.0" layoutY="45.0" text="Operand 1" />
+      <Label layoutX="46.0" layoutY="82.0" text="Operand 2" />
+      <Label layoutX="70.0" layoutY="119.0" text="Result" />
+      <Label fx:id="op1" layoutX="125.0" layoutY="40.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black;" text="0" />
+      <Label fx:id="op2" layoutX="125.0" layoutY="77.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black;" text="0" />
+      <Label fx:id="res" layoutX="125.0" layoutY="114.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black;" text="0" />
+
+   </children>
+</AnchorPane>
