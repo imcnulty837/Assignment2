@@ -21,9 +21,9 @@
       <Label layoutX="46.0" layoutY="45.0" text="Operand 1" />
       <Label layoutX="46.0" layoutY="82.0" text="Operand 2" />
       <Label layoutX="70.0" layoutY="119.0" text="Result" />
-      <Label fx:id="op1" layoutX="125.0" layoutY="40.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black;" text="0" />
-      <Label fx:id="op2" layoutX="125.0" layoutY="77.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black;" text="0" />
-      <Label fx:id="res" layoutX="125.0" layoutY="114.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black;" text="0" />
+      <Label fx:id="op1" layoutX="125.0" layoutY="40.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black;" />
+      <Label fx:id="op2" layoutX="125.0" layoutY="77.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black;" />
+      <Label fx:id="res" layoutX="125.0" layoutY="114.0" prefHeight="26.0" prefWidth="224.0" style="-fx-border-color: black;" />
 
    </children>
 </AnchorPane>
