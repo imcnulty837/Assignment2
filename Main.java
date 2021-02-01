@@ -8,15 +8,25 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    /**
+     * Boots up the fxml file with controller so it can be used
+     *
+     * @param primaryStage
+     * @throws Exception
+     */
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("menu.fxml"));
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("Ian McNulty's Calculator");
         primaryStage.setScene(new Scene(root, 600, 500));
         primaryStage.show();
     }
 
-
+    /**
+     * Launches class
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         launch(args);
     }
